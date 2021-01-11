@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class = 'wrapper'>
+        <div class = 'inputs-wrapper'>
+            <div>
+                <h3>Distance</h3>
+                <input id="distance" label="distance" type="number" value = "200">
+            </div>
+            <div>
+                <h3>Radius</h3>
+                <input id="radius" label="radius" type="number" value = "10">
+            </div>
+            <div>
+                <h3>Wiggle</h3>
+                <input id="wiggle" label="wiggle" type="number" value = "10">
+            </div>
+            <div>
+                <h3>Orbit speed</h3>
+                <input id="orbit_speed" label="orbit speed" type="number" value = "10">
+            </div>
+            <div>
+                <h3>Tail Length</h3>
+                <input id="tail_length" label="tail length" type="number" value = "100">
+            </div>
+            <div>
+                <h3>Number of planets</h3>
+                <input id="number_of_planets" label="number of planets" type="number" value = "10">
+            </div>
+            <button id="update_button">Update</button>
+        </div>
+        <canvas id="canvas" style = "background-color: black" width="1200" height="700"></canvas>
+    <div>
+    <script src="tools.js"></script>
+    <script src="main.js"></script>
+    <script src="inputs.js"></script>
+</body>
+</html>
